@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section{
+    background-color: white;
+    display: grid;
+    width: 348px;
+    height: 348px;
+    grid-template-columns: repeat(3, 121px);
+    grid-template-rows: repeat(3, 121px);
+}
+div{
+    border: 3px blue solid;
+    background-image: '';
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}

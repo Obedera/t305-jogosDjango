@@ -18,6 +18,7 @@ from django.urls import path
 from jogo import views
 
 urlpatterns = [
+    path('jogoVelha/', views.pagina_jogo_velha),
     path('', views.index),
     path('admin/', admin.site.urls),
 ]
