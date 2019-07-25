@@ -16,6 +16,7 @@ section{
 div{
     border: 3px blue solid;
     background-image: '';
+    /* background-image: url({% static 'img/o.png' %}) */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

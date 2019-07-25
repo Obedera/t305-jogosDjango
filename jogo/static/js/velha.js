@@ -1,14 +1,13 @@
 let quadradinhos = document.querySelectorAll("div");
 let jogador = 2;
-
 function mudarImg(event){
     if (event.target.style.backgroundImage == ''){
         if((jogador%2)==0){
-            event.target.style.backgroundImage = 'url(img/x.png)';
+            event.target.style.backgroundImage = 'url(../static/img/x.png)';
             event.target.classList.add('x');
         }
         else{
-            event.target.style.backgroundImage = 'url(img/o.png)';
+            event.target.style.backgroundImage = 'url(../static/img/o.png)';
             event.target.classList.add('o');
         }
         jogador++;
