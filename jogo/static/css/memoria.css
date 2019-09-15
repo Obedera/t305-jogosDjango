@@ -1,0 +1,21 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+div{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 5px;
+}
+div img{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+.flip{
+    transform: rotateY(180deg);
+    transition: transform.5s;
+}

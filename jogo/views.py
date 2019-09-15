@@ -16,3 +16,6 @@ def pagina_jogo_snake(request):
 
 def pagina_jogo_genius(request):
     return render(request, 'jogoGenius.html')
+
+def pagina_jogo_memoria(request):
+    return render(request, 'jogoMemoria.html')
