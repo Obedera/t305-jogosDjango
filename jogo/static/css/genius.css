@@ -1,0 +1,25 @@
+body{
+    background-color: darkblue;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 400px;
+}
+.botao{
+    height:200px;
+    width: 200px;
+    opacity: 0.4;
+    border: 3px black solid;
+}
+

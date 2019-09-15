@@ -13,3 +13,6 @@ def pagina_jogo_forca(request):
 
 def pagina_jogo_snake(request):
     return render(request, 'jogoSnake.html')
+
+def pagina_jogo_genius(request):
+    return render(request, 'jogoGenius.html')
