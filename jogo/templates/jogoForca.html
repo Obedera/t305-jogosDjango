@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/forca.css' %}">
+    <script defer src="{% static 'js/forca.js' %}"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>Jogo da Forca</h1>
+        <h2></h2>
+        <h3>Letras já inseridas:</h3>
+        <aside>
+            <h2>Número de tentativas</h2><p>5</p>
+        </aside>
+        <aside>
+            <img src="/static/img/forca/forca5.png" alt="">
+            <div class="quadradoResposta">
+            </div>
+        </aside>
+        <aside>
+            <button onclick="definirResposta()">Definir Resposta</button>
+        </aside>
+    </section>
+</body>
+</html>

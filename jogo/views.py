@@ -7,3 +7,6 @@ def index(request):
 
 def pagina_jogo_velha(request):
     return render(request, 'jogoVelha.html')
+
+def pagina_jogo_forca(request):
+    return render(request, 'jogoForca.html')
