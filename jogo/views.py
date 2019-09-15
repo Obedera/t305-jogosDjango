@@ -10,3 +10,6 @@ def pagina_jogo_velha(request):
 
 def pagina_jogo_forca(request):
     return render(request, 'jogoForca.html')
+
+def pagina_jogo_snake(request):
+    return render(request, 'jogoSnake.html')
